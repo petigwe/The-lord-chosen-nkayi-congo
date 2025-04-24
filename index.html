@@ -77,51 +77,58 @@
         }
         section:nth-child(2) { animation-delay: 0.2s; }
         section:nth-child(3) { animation-delay: 0.4s; }
-        section:nth-child(4) { animation-delay: 0.6s; }@keyframes fadeIn {
-        to {
-            opacity: 1;
-            transform: translateY(0);
+        section:nth-child(4) { animation-delay: 0.6s; }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
-    }
-    h2 {
-        color: #004d40;
-    }
-    footer {
-        background: #004d40;
-        color: white;
-        text-align: center;
-        padding: 1rem 0;
-        margin-top: 20px;
-    }
-    ul {
-        list-style: none;
-        padding: 0;
-    }
-</style>
-
+        h2 {
+            color: #004d40;
+        }
+        footer {
+            background: #004d40;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        .pastor-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 10px;
+            border: 4px solid #004d40;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>The Lord's Chosen Charismatic Revival Ministry</h1>
         <p>Congo Brazzaville - Nkayi Branch</p>
-    </header><nav>
-    <div id="menu-toggle" onclick="toggleMenu()">☰ Menu</div>
-    <div id="menu-links">
-        <a href="#greetings">Greetings</a>
-        <a href="#about">About Us</a>
-        <a href="#sermons">Sermon</a>
-        <a href="#events">Events</a>
-        <a href="#giving">Give</a>
-        <a href="#testimonies">Testimonies</a>
-        <a href="#livestream">Live Stream</a>
-        <a href="#contact">Contact</a>
-    </div>
-</nav>
-
-<main>
+    </header>
+    <nav>
+        <div id="menu-toggle" onclick="toggleMenu()">☰ Menu</div>
+        <div id="menu-links">
+            <a href="#greetings">Greetings</a>
+            <a href="#about">About Us</a>
+            <a href="#sermons">Sermon</a>
+            <a href="#events">Events</a>
+            <a href="#giving">Give</a>
+            <a href="#testimonies">Testimonies</a>
+            <a href="#livestream">Live Stream</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav><main>
     <section id="greetings">
-       <img src="General pastor.jpg" alt="General pastor.jgg" style="max-width: 300px; width: 100%; height: auto; border-radius: 8px;">
-        <img src="IMG-20250316-WA0000~2.jpg" alt="Pastor" style="max-width: 250px; width: 90%; height: auto; border-radius: 8px;">
+        <img src="General pastor.jpg" alt="General Pastor" class="pastor-image">
+        <img src="IMG-20250316-WA0000~2.jpg" alt="Pastor Johnson" class="pastor-image">
         <h2>Greetings from the State Pastor Johnson</h2>
         <p style="max-width: 600px; margin: auto;">
             Greetings in the name of our Lord and Savior, Jesus Christ! May God’s grace abound in your life. We believe in seeking first the Kingdom of God, trusting His promises, and living a life of faith and holiness.
@@ -218,4 +225,4 @@
 </script>
 
 </body>
-</html>
+            </html>
